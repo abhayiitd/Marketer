@@ -250,7 +250,7 @@ document.getElementById('contact-form').addEventListener('submit',e=>{
     })
     .then(response=>{
         if(response.ok){
-            alert('');
+            alert('Message Sent Successfully!');
             e.target.reset('Message Sent Successfully!');
         }else{
             alert('❌ Failed to send message.');
@@ -268,3 +268,4 @@ document.getElementById('contact-form').addEventListener('submit',e=>{
     </script>
 </body>
 </html>
+
